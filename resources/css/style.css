@@ -65,7 +65,7 @@ a {
 /* Mission Section */
 #mission {
   background-image:
-  url("C:/Users/Bryan/webdev/teacozy/resources/images/img-mission-background.jpg");
+  url("resources/images/img-mission-background.jpg");
   height: 700px;
 }
 
@@ -98,7 +98,7 @@ a {
 /* Location Section */
 #location {
   background-image:
-  url("C:/Users/Bryan/webdev/teacozy/resources/images/img-locations-background.jpg");
+  url("resources/images/img-locations-background.jpg");
   height: 500px;
 }
 
