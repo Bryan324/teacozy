@@ -1,0 +1,122 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+div, nav {
+  display: block;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header Section */
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 1;
+  position: fixed;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+a {
+  color: seashell;
+}
+
+/* Mission Section */
+#mission {
+  background-image:
+  url("C:/Users/Bryan/webdev/teacozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+}
+
+#mission .content{
+  background-color: black;
+  margin: auto;
+  width: 100%
+}
+
+/* Store Section */
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Location Section */
+#location {
+  background-image:
+  url("C:/Users/Bryan/webdev/teacozy/resources/images/img-locations-background.jpg");
+  height: 500px;
+}
+
+.box {
+  background-color: black;
+  width: 300px;
+  margin-top: 15px;
+  margin-right: 40px;
+  opacity: 1;
+}
+
+/* Contact Section */
+#contact {
+  height: 200px
+}
+
+/* Footer Section */
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
